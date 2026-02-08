@@ -1,0 +1,21 @@
+emp_id,name,age,gender,city,salary,department
+1,John Doe,28,M,Delhi,45k,IT
+2,Jane Smith,thirty,female,Mumbai,52000,HR
+3,Alice Brown,29,F,Bangalore,₹48000,IT
+4,Bob Johnson,45,M,Chennai,65000,Admin
+5,John Doe,28,M,Delhi,not disclosed,IT
+6,Michael Clark,35,male,Pune,60000,Finance
+7,Michael Clark,NA,M,Pune,60k,Finance
+8,Sara Davis,26,F,Kolkata,42000,HR
+9,Sara Davis,26,F,Kolkata,42000,HR
+10,Chris Miller,41,M,Delhi,70000,Management
+11,Chris Miller,41,M,Delhi,seventy thousand,Management
+12,Robert Wilson,38,M,Noida,58000,IT
+13,Robert Wilson,38,M,Noida,58000,IT
+14,Emily Moore,25,F,Mumbai,40000,HR
+15,Emily Moore,25,F,Mumbai,40k,HR
+16,David Taylor,50,M,Chennai,80000,Admin
+17,David Taylor,50,M,Chennai,80000,Admin
+18,Linda Anderson,34,F,Delhi,54000,Finance
+19,Linda Anderson,34,F,Delhi,₹54000,Finance
+20,,30,M,Delhi,50000,IT
