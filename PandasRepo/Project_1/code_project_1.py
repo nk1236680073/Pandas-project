@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:\\Users\\Hp\\Downloads\\practice1.csv",encoding='latin1')
+df = pd.read_csv("messy_project_1.csv",encoding='latin1')
 print(df)
 # print(df.info())
 # print(df.isna().sum())
@@ -119,4 +119,5 @@ print(df)
 
 # Take output 
 df.to_excel("C:\\Users\\Hp\\Downloads\\cleaned_practice1.xlsx",index=False)
+
 
