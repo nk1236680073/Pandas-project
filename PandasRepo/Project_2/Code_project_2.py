@@ -3,7 +3,7 @@ import numpy as np
 import re
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("PANDAS/practice2.csv")
+data = pd.read_csv("messy_project_2.csv")
 
 df = pd.DataFrame(data)
 
@@ -82,7 +82,7 @@ df=df.drop_duplicates(['name','city','department']) # drop duplicates on the bas
 
 df['emp_id'] = range(1,1+len(df)) # remove mess from employee id 
 print(df)
-df.to_csv("finalpractice2.csv",index=False)
+df.to_csv("final_project_2.csv",index=False)
 
 # matplotlib pie between salary distribution between diffrent department
 sal_it = df[df['department']=='IT']
@@ -94,3 +94,4 @@ plt.title("salary distribution between diffrent department")
 plt.legend(loc='upper right',fontsize=5)
 plt.pie(x=[sal_it['salary'].sum(),sal_HR['salary'].sum(),sal_Admin['salary'].sum(),sal_Finance['salary'].sum(),sal_Management['salary'].sum()],labels=['IT','HR','Admin','Finance','Management'],autopct="%1.1f%%")
 plt.show()
+
